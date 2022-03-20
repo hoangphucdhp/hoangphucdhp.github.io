@@ -1,0 +1,262 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: orange;
+    }
+    
+    .td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .ndp1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .ndp1 img {
+        width: 580px;
+        height: 420px;
+    }
+    
+    .gioi-thieu {
+        background-color: rgb(105, 100, 100);
+        padding: 15px;
+        border-radius: 9px;
+    }
+    
+    .right a {
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+    }
+    
+    .right i {
+        font-size: 20px;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    
+    .menu img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .menu1 {
+        display: flex;
+        padding: 25px;
+    }
+    
+    .menu1 a {
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .button1 {
+        padding: 20px;
+    }
+    
+    .button1 input {
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .button1 button {
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    .nd-phu {
+        width: 60%;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    
+    .nd-phu .anhchinh1 img {
+        width: 100%;
+    }
+    
+    .banner2 {
+        display: flex;
+        padding: 10px;
+    }
+    
+    .banner2 img {
+        width: 100%;
+    }
+    
+    body {
+        margin: 0 auto;
+    }
+    
+    .d-right a {
+        padding: 10px;
+    }
+    
+    .product .heading {
+        margin-top: 10px;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+    }
+    
+    .carousel-inner {
+        border-radius: 20px;
+    }
+    
+    .list-product {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .list-product .product-item {
+        padding: 20px;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    .chucnang {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer {
+        margin-top: 10px;
+        background-color: black;
+    }
+    
+    footer p {
+        text-align: center;
+        color: white;
+    }
+    /*gioi thieu*/
+    
+    article {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    /*dang nhap*/
+    
+    .divider:after,
+    .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+    }
+    
+    .h-custom {
+        height: calc(100% - 73px);
+    }
+    
+    @media (max-width: 450px) {
+        .h-custom {
+            height: 100%;
+        }
+    }
+    /*tin tuc*/
+    
+    .news {
+        width: 30%;
+        background-color: white;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .tt-left {
+        display: flex;
+    }
+    
+    .row {
+        background-color: rgb(232, 232, 248);
+    }
+    /*chinh sach*/
+    
+    tr a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    p {
+        padding: 20px;
+        text-align: justify;
+        font-size: 16px;
+    }
+    /* gio hang */
+    
+    .buy {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .gio-hang {
+        border: 1px soild black;
+        box-shadow: 2px 2px 4px black;
+        padding: 20px;
+        margin: auto;
+        max-width: 1120px;
+    }
+    
+    .item-gh {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        clear: both;
+    }
+    
+    .item-gh .buy-anh img {
+        width: 70px;
+        height: 70px;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+    
+    .soluong input {
+        width: 60px;
+    }
+    
+    nav {
+        float: right;
+        padding-left: 50px;
+        margin-left: 40px;
+    }
+    
+    .mua-hang {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .mua-hang button {
+        border-radius: 10px;
+        margin-top: 50px;
+        padding: 10px;
+        background-color: green;
+        color: aliceblue;
+    }
